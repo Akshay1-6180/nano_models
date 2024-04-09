@@ -3,4 +3,7 @@ numpy==1.26.4
 opencv-python==4.9.0.80
 einops==0.7.0
 matplotlib==3.8.3
-vit_pytorch-1.6.5
+vit_pytorch==1.6.5
+timm==0.9.16
+transformers==4.39.3
+jupyterlab==4.1.6
