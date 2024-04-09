@@ -37,3 +37,6 @@ Inspired from : https://github.com/lucidrains/vit-pytorch
 Notebook : [swin notebook](notebooks/swin_transformers.ipynb) <br>
 Code : [swinv1 code](modules/swin_easy.py)   [swinv2 code](modules/swin_v2.py)  <br>
 Inspired from : https://github.com/microsoft/Swin-Transformer/tree/main/models https://github.com/berniwal/swin-transformer-pytorch
+
+## License
+nano_models has a mit type license as found in [license](LICENSE) file
