@@ -1,5 +1,10 @@
 # Nano_Models
 
+<p align="center">
+  <img src="images/cat_image.jpg" alt="alt" width="512"/>
+</p>
+
+
 Welcome to the Nano_Models repository, where our mission is to demystify complex model architectures presented in research papers, making it easier for everyone to grasp the core concepts and enhance reproducibility. Through detailed Jupyter notebooks, we break down these architectures step by step, blending theoretical insights with practical code snippets to illuminate the path from paper to implementation.
 
 ## Philosophy
