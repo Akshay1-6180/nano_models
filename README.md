@@ -26,3 +26,14 @@ conda activate nano_models
 # install the package in editable mode
 pip install -e .
 ```
+
+## Models 
+### vit implementation 
+Notebook : [vit notebook](notebooks/swin_transformers.ipynb) <br>
+Code : [vit code](modules/vit.py)<br>
+Inspired from : https://github.com/lucidrains/vit-pytorch
+
+### Swin Implementation
+Notebook : [swin notebook](notebooks/swin_transformers.ipynb) <br>
+Code : [swinv1 code](modules/swin_easy.py)   [swinv2 code](modules/swin_v2.py)  <br>
+Inspired from : https://github.com/microsoft/Swin-Transformer/tree/main/models https://github.com/berniwal/swin-transformer-pytorch
