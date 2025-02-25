@@ -13,7 +13,7 @@ In the pursuit of advancing machine learning and deep learning fields, understan
 
 ## Repository Structure
 
-- **Notebooks/**: Contains Jupyter notebooks that walk you through the model architectures. Each notebook is dedicated to a specific paper/model, starting with a brief overview of the paper, followed by a detailed explanation of the model's architecture, and concluding with a touch of code to see the model in action.
+- **Notebooks/**: Contains Jupyter notebooks that walk you through the model architectures or any analysis. Each notebook is dedicated to a specific paper/model or analysis of any interesting operation, starting with a brief overview of the paper, followed by a detailed explanation of the model's architecture, and concluding with a touch of code to see the model in action.
 - **Modules/**: Houses the actual code implementations of the models discussed in the notebooks. This code is extracted directly from the implementations for reference and educational purposes.
 
 ## Getting Started
@@ -27,6 +27,8 @@ conda activate nano_models
 pip install -e .
 ```
 
+For more detailed notes on the models and resources, check out the [Notes README](./notes/README.md).
+
 ## Models 
 ### vit implementation 
 Notebook : [vit notebook](notebooks/swin_transformers.ipynb) <br>
@@ -38,5 +40,11 @@ Notebook : [swin notebook](notebooks/swin_transformers.ipynb) <br>
 Code : [swinv1 code](modules/swin_easy.py)   [swinv2 code](modules/swin_v2.py)  <br>
 Inspired from : https://github.com/microsoft/Swin-Transformer/tree/main/models https://github.com/berniwal/swin-transformer-pytorch
 
+### TO do 
+1) add a mistral notebook that explains sliding window , buffer cache 
+2) implement GQA , MQA and understand it 
+3) upcoming lora, rope materials 
+
 ## License
 nano_models has a mit type license as found in [license](LICENSE) file
+
